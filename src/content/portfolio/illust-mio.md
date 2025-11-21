@@ -2,8 +2,8 @@
 title: Drawing
 desc: Drawn in Procreate.
 category: illustration
-thumbImg: "./images/illust/aiko.png"
-fullImg: "./images/illust/aiko.png"
-order: 10
+thumbImg: "./images/illust/mio.png"
+fullImg: "./images/illust/mio.png"
+order: -2
 ---
 Markdown body

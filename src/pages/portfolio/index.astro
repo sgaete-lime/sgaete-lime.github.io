@@ -7,7 +7,7 @@ import ImageLightbox from '../../components/ImageLightbox.svelte'
 const allProjects = await getCollection('portfolio');
 
 // Define the order of categories
-const categoryOrder = ["games", "modeling", "illustration", "other"];
+const categoryOrder = ["games", "illustration", "modeling", "other"];
 
 // Sort projects inside categories using "order" field
 function sortProjects(a: CollectionEntry<'portfolio'>, b: CollectionEntry<'portfolio'>) {
