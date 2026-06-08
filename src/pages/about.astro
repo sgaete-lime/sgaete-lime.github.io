@@ -1,3 +1,26 @@
 ---
-Astro.redirect("https://sgaete.studio/");
 ---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+
+    <meta
+      http-equiv="refresh"
+      content="0; url=https://sgaete.studio/"
+    />
+
+    <script>
+      window.location.replace("https://sgaete.studio/");
+    </script>
+
+    <link rel="canonical" href="https://sgaete.studio/" />
+  </head>
+
+  <body>
+    <p>
+      Redirecting to
+      <a href="https://sgaete.studio/">sgaete.studio</a>...
+    </p>
+  </body>
+</html>
